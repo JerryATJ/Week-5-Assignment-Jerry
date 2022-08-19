@@ -1,0 +1,92 @@
+:root {
+  --primary-colour: #6cc4bf;
+  --secondary-colour: #ffffff;
+  --Tertiary-colour: #504775;
+  --shortly-border: 2px solid red;
+  --shortly-padding: 2% 10%;
+}
+.font-hover:hover {
+  font-weight: 700;
+}
+.scale {
+  transition: all 0.1s ease-in-out;
+}
+.scale:hover {
+  transform: scale(0.95);
+}
+.my-grid-container {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 10px;
+}
+.my-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.my-bd-rad {
+  border-radius: 5px;
+}
+.my-bg-one {
+  background-color: var(--primary-colour);
+  padding: 5px;
+}
+.my-bg-two {
+  background-color: var(--Tertiary-colour);
+}
+.my-color {
+  color: var(--secondary-colour);
+}
+.my-text-center {
+  text-align: center;
+}
+.my-card {
+  background-color: var(--secondary-colour);
+  padding: 1%;
+  border-radius: 5px;
+}
+.my-br {
+  border-radius: 30px;
+  padding: 0.5rem;
+}
+.my-br-copy {
+  border-radius: 5px;
+  padding: 3%;
+}
+.my-mg-top {
+  margin-top: 2%;
+}
+.my-mg-auto {
+  margin: 3% auto;
+}
+.my-mb-20 {
+  margin-bottom: 20px;
+}
+.my-mt-10 {
+  margin-top: 10px;
+}
+.my-ml {
+  margin-left: 10px;
+}
+.my-mb-5 {
+  margin-bottom: 5px;
+}
+.my-color-2 {
+  color: grey;
+}
+.my-color-3 {
+  color: var(--primary-colour);
+}
+.my-font-7 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.my-pd-20 {
+  padding: 20px;
+}
